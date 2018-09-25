@@ -10,19 +10,19 @@
 1. Distributed: Make many server as a cluster
 2. CS (Client & Server) Mode
 ##### Master & Slave Structure
-Master: NameNode (Unique)
+######Master: NameNode (Unique)
 1. Receiving request from Client side
 2. Managign all the datanode
 3. Managing Metadata
-Metadata-Node for data storage
+######Metadata-Node for data storage
 1. Each file has been distributed into several pieces
 2. Each file has few copies
 3. Each copies storage in one of the servers
-Salves: DataNode (Can be many)
+######Salves: DataNode (Can be many)
 1. Submitting users' request to server
 2. Split files while storage
 3. Merging files while reading
-Secondary NameNode: Support process-Support NameNode to backup metadata
+######Secondary NameNode: Support process-Support NameNode to backup metadata
 ##### Storage Example:
 ```
 500M Data Storage:
