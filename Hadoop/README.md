@@ -9,7 +9,7 @@
 ##### Feature:
 1. Distributed: Make many server as a cluster
 2. CS (Client & Server) Mode
-#####Master & Slave Structure
+##### Master & Slave Structure:
 Master: NameNode (Unique)
 1. Receiving request from Client side
 2. Managign all the datanode
