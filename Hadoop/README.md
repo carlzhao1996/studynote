@@ -1,6 +1,6 @@
 ### Hadoop Study Note
 1. [HDFS (Hadoop Distributed File System)](#hdfs)
-2. [Hadoop Deployment](#hafs-deploy)
+2. [HDFS Deployment](#hdfs-deploy)
 
 #### <div id="hdfs">HDFS (Hadoop Distributed File System)</div>
 ##### Usage:
@@ -23,7 +23,7 @@ Salves: DataNode (Can be many)
 2. Split files while storage
 3. Merging files while reading
 Secondary NameNode: Support process-Support NameNode to backup metadata
-##### Storage Example:![image](./image/hdfs-storage.png)
+##### Storage Example:![image](image/hdfs-storage.png)
 
 #### <div id="hdfs-deploy">HDFS Deployment</div>
 ##### Deployment Environment:
