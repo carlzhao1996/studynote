@@ -23,20 +23,7 @@ Salves: DataNode (Can be many)
 2. Split files while storage
 3. Merging files while reading
 Secondary NameNode: Support process-Support NameNode to backup metadata
-##### Storage Example:
-500M Data Storage:
-	block1:128M
-	block2:128M
-	block3:128M
-	block4:116M
-
-Default HDFS will duplicate each block into two pieces. Therefore each block on hdfs will exist 3 copies.
-
-node1		node2		node3		node4
-block1		block2		block3		block4
-block2		block1		block2		block1
-block3		block3		block4
-block4
+##### Storage Example:(./image/hdfs-storage.png)
 
 #### <div id="hdfs-deploy">HDFS Deployment</div>
 ##### Deployment Environment:
